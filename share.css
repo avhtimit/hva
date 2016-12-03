@@ -1,0 +1,76 @@
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoPinterest:hover {
+	background-color:#cd1c1f;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoTumbler:hover {
+	background-color:#304e6c;
+}
+.social-network a.icoPinterest:hover i,.social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,.social-network a.icoTumbler:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-oblong li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	text-align:center;
+	width: 100px;
+	height: 50px;
+	font-size:20px;
+	border-radius:5px;
+}
+.social-oblong li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-oblong li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.9s;
+	-moz-transition: all 0.9s;
+	-o-transition: all 0.9s;
+	-ms-transition: all 0.9s;
+	transition: all 0.9s;
+}
+.social-oblong i {
+	color: #fff;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+.icoFacebook{background-color:#2d42a3;}
+.icoTumblr{background-color:#1c2d51;}
+.icoTwitter{background-color:#2795e9;}
+.icoGoogle{background-color:#df4a32;}
+.icoPinterest{background-color:#aa1c1e;}
